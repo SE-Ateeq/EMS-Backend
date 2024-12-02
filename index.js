@@ -16,7 +16,7 @@ import dashboardRouter from "./routes/dashboard.js"
 connectToDatabase()
 const app = express()
 app.use(cors({
-    origin: "https://ems-frontend-nu.vercel.app/",
+    origin: "https://ems-frontend-nu.vercel.app",
     credentials: true
 }))
 app.use(express.json())
